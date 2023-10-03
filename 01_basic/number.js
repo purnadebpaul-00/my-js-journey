@@ -1,8 +1,8 @@
 const num = 440
-console.log(num);
+// console.log(num);
 
 const numb = new Number(50000)
-console.log(numb);
+// console.log(numb);
 
 // toString
 console.log(num.toString());
