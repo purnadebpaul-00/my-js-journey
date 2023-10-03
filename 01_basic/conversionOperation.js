@@ -1,4 +1,4 @@
-/* =====number to string=======
+// =====number to string=======
 
 let number = 33;
 console.log(typeof number);
@@ -7,7 +7,7 @@ let numbertostring = String(number);
 console.log(numbertostring);
 console.log(typeof numbertostring);
 
-*/
+
 
 
 /* ======= string to number =========
@@ -59,7 +59,7 @@ console.log(stringtoboolean);
 
 */
 
-/* =========boolean to string ========= 
+ =========boolean to string ========= 
 
 let boolean = true;
 console.log(typeof boolean);
