@@ -57,6 +57,32 @@ console.log(myFunction(1,2,3,4));
 
 */
 
+// ================== Self-Invoking Functions =====================
+
+/*
+
+(function xyz(parameters) {
+    let x = "Hello!!";  // I will invoke myself
+    console.log(x);
+  })(arguments); //semicolon is must (for end the invoking)
+
+
+(function() {
+    let x = "Hello!!";  // I will invoke myself
+    console.log(x);
+  })(); 
+
+(()=>{
+    let y = "sanju paul"
+    console.log(y);
+})();
+
+((x,y)=>{
+    console.log(x * y);
+})(5,6);
+
+*/
+
 
 
 
