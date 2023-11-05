@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ui class="line">
+        <li>javascript</li>
+    </ui>
+</body>
+<script>
+    function addlang(langname){
+        const lii = document.createElement("li")
+        lii.innerHTML = `${langname}`
+        document.querySelector(".line").appendChild(lii)
+    }
+    addlang("python")
+    addlang("c++")
+    addlang("java")
+    function addoptilang(langname){
+        const lii = document.createElement("li")
+        lii.appendChild(document.createTextNode(langname))
+        document.querySelector(".line").appendChild(lii)
+    }
+    addoptilang("golang")
+    addoptilang("typescript")
+</script>
+</html>
